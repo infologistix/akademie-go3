@@ -14,3 +14,7 @@ type Customer struct {
 }
 
 // Ab Hier können einzelne Structs hinzugefpügt werden
+type Car struct {
+	Type  string `json:"name"`
+	Price string `json:"adress"`
+}
